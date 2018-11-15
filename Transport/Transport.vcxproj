@@ -115,11 +115,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="airBaloon.h" />
     <ClInclude Include="airVehicle.h" />
+    <ClInclude Include="engineAirVehicle.h" />
+    <ClInclude Include="helicopter.h" />
+    <ClInclude Include="plane.h" />
     <ClInclude Include="vehicle.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="airBaloon.cpp" />
     <ClCompile Include="airVehicle.cpp" />
+    <ClCompile Include="engineAirVehicle.cpp" />
+    <ClCompile Include="helicopter.cpp" />
+    <ClCompile Include="plane.cpp" />
     <ClCompile Include="vehicle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
