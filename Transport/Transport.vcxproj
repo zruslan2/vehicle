@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -117,18 +117,38 @@
   <ItemGroup>
     <ClInclude Include="airBaloon.h" />
     <ClInclude Include="airVehicle.h" />
+    <ClInclude Include="bike.h" />
+    <ClInclude Include="boat.h" />
+    <ClInclude Include="bus.h" />
+    <ClInclude Include="car.h" />
     <ClInclude Include="engineAirVehicle.h" />
+    <ClInclude Include="groundVehicle.h" />
     <ClInclude Include="helicopter.h" />
     <ClInclude Include="plane.h" />
+    <ClInclude Include="rocket.h" />
+    <ClInclude Include="spaceVehicle.h" />
+    <ClInclude Include="tank.h" />
     <ClInclude Include="vehicle.h" />
+    <ClInclude Include="waterVehicle.h" />
+    <ClInclude Include="yacht.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="airBaloon.cpp" />
     <ClCompile Include="airVehicle.cpp" />
+    <ClCompile Include="bike.cpp" />
+    <ClCompile Include="boat.cpp" />
+    <ClCompile Include="bus.cpp" />
+    <ClCompile Include="car.cpp" />
     <ClCompile Include="engineAirVehicle.cpp" />
+    <ClCompile Include="groundVehicle.cpp" />
     <ClCompile Include="helicopter.cpp" />
     <ClCompile Include="plane.cpp" />
+    <ClCompile Include="rocket.cpp" />
+    <ClCompile Include="spaceVehicle.cpp" />
+    <ClCompile Include="tank.cpp" />
     <ClCompile Include="vehicle.cpp" />
+    <ClCompile Include="waterVehicle.cpp" />
+    <ClCompile Include="yacht.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
